@@ -1,0 +1,140 @@
+body {
+  margin-top: 0px;
+  padding: 10px;
+  background-color: blue;
+  width: 500px;
+  height: 500px;
+}
+
+h1 {
+  color: rgb(131, 218, 73);
+  padding: 10px;
+}
+
+.SUCCES {
+  background-color: yellow;
+  padding: 10px;
+  border-radius: 10px;
+  color: rgba(231, 28, 28, 0.897);
+  margin-bottom: 10px;
+}
+
+.INFO {
+  background-color: orange;
+  padding: 10px;
+  border-radius: 10px;
+  color: rgba(231, 28, 28, 0.897);
+  margin-bottom: 10px;
+}
+
+.WARNING {
+  background-color: blueviolet;
+  padding: 10px;
+  border-radius: 10px;
+  color: rgba(231, 28, 28, 0.897);
+  margin-bottom: 10px;
+}
+
+.DANGER {
+  background-color: gray;
+  padding: 10px;
+  border-radius: 10px;
+  color: rgba(231, 28, 28, 0.897);
+  margin-bottom: 10px;
+}
+
+.div-icon-phone {
+  background: url("./icons/phone.jpeg");
+  border: solid 2px pink;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 400px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 5px solid;
+}
+
+.div-icon-mail {
+  background: url("./icons/mail.jpeg");
+  border: solid 2px red;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 400px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 5px solid;
+}
+
+.div-icon-search {
+  background: url("./icons/search.png");
+  border: solid 2px aqua;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 400px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 5px solid;
+}
+
+.div-icon-laptop {
+  background: url("./icons/laptop.png");
+  border: solid 2px yellow;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 400px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  border: 5px solid;
+}
+
+.div-icon-perro1 {
+  background: url("./icons/perro1.jpg");
+  border: solid 2px orange;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 700px;
+  height: 500px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 5px solid;
+}
+
+.div-icon-perro2 {
+  background: url("./icons/perro2.jpg");
+  border: solid 2px red;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 700px;
+  height: 500px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 5px solid;
+}
+
+.div-icon-perro3 {
+  background: url("./icons/perro3.jpg");
+  border: solid 2px aqua;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 700px;
+  height: 500px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 5px solid;
+}
+
+.div-icon-perro4 {
+  background: url("./icons/perro4.jpg");
+  border: solid 2px yellow;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 700px;
+  height: 500px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  border: 5px solid;
+}/*# sourceMappingURL=estilos.css.map */

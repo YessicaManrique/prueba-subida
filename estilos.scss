@@ -1,0 +1,83 @@
+@import"./variable.scss";
+
+body{
+    margin-top: 0px;
+    padding: 10px;
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+}
+
+h1{
+    color: $color-principal;
+    padding: $padding-1;
+
+}
+
+@mixin guille(
+    $bg:#fff){
+    background-color:$bg;
+    padding:$padding-1;
+    border-radius: $padding-1;
+    color: $color-red;
+    margin-bottom: $padding-1;
+} 
+
+.SUCCES{
+    //aca en de hacer estilos llamo al mixin
+    @include guille($bg:yellow);
+}
+
+.INFO{
+    @include guille($bg:orange);
+}
+
+.WARNING{
+        @include guille($bg:blueviolet);
+}
+
+.DANGER{
+    @include guille($bg:gray);
+}
+
+//asi como los mixin retorna una  porciontambien pueden regresar una clase directa
+//el proposito de esto es generar codigo completo es de decir desde la clase de la creacion de su clase
+
+@mixin generation-icons($name, $icon, $color, $size, $border){
+    //de esta forma concatenamos un texto  con una variable en SASS
+
+    .div-icon-#{$name}{
+        background: url("./icons/#{$icon}");
+        border: solid 2px $color;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: $size;
+        height: $size;
+        margin-bottom: 10px;
+        border-radius: $border;
+        border: 5px solid;
+    }
+}
+@include generation-icons("phone","phone.jpeg", pink, 400px, 8px);
+@include generation-icons("mail","mail.jpeg", red, 400px, 8px);
+@include generation-icons("search","search.png", aqua, 400px, 8px);
+@include generation-icons("laptop","laptop.png", yellow, 400px, 20px);
+
+
+@mixin generation-perros($name, $icon, $color, $size1, $size2, $border){
+    .div-icon-#{$name}{
+        background: url("./icons/#{$icon}");
+        border: solid 2px $color;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: $size1;
+        height: $size2;
+        margin-bottom: 10px;
+        border-radius: $border;
+        border: 5px solid;
+    }
+}
+@include generation-perros("perro1","perro1.jpg", orange, 700px, 500px, 8px);
+@include generation-perros("perro2","perro2.jpg", red, 700px, 500px, 8px);
+@include generation-perros("perro3","perro3.jpg", aqua, 700px, 500px, 8px);
+@include generation-perros("perro4","perro4.jpg", yellow, 700px, 500px, 20px);

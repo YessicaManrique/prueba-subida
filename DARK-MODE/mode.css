@@ -1,0 +1,11 @@
+body[data-mode=light] {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: green;
+  color: black;
+}
+
+body[data-mode=dark] {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #4c3a51;
+  color: white;
+}/*# sourceMappingURL=mode.css.map */

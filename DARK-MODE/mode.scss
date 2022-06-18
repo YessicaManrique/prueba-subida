@@ -1,0 +1,33 @@
+//dark mode
+$bg-dark: #4c3a51;
+$text-dark: white;
+
+
+//light mode
+$bg-light:green;
+$text-light: black;
+
+@mixin theme($mode, $color, $bg){
+    body[data-mode="#{$mode}"]{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: $bg;
+        color: $color;
+    }
+}
+
+@include theme("light",$text-light, $bg-light);
+@include theme("dark",$text-dark, $bg-);
+
+// body[data-mode="light"]{
+//     font-family: 'Franklin Gothic Medium',
+//     'Arial Narrow', Arial, sans-serif;
+//     background-color: $bg-light;
+//     color: $text-light;
+// }
+
+// body[data-mode="dark"]{
+//     font-family: 'Franklin Gothic Medium',
+//     'Arial Narrow', Arial, sans-serif;
+//     background-color: $bg-dark;
+//     color: $text-dark;
+// }
